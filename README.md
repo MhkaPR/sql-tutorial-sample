@@ -1,3 +1,4 @@
+```sql
 -- جدول مشتریان
 CREATE TABLE customers (
     id INTEGER PRIMARY KEY,
@@ -43,7 +44,8 @@ CREATE TABLE order_items (
 );
 
 ---
-
+```
+```sql
 -- ==================== دسته‌بندی‌ها ====================
 
 INSERT INTO categories (id, title) VALUES
@@ -130,3 +132,5 @@ INSERT INTO order_items (id, order_id, product_id, quantity, price) VALUES
 (18, 3,  7,  1, 12000000),
 (19, 4,  9,  1, 4500000),
 (20, 10, 13, 1, 43000000);
+
+```
